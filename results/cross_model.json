@@ -1,0 +1,135 @@
+[
+ {
+  "model": "Gemini 4 Hydrogen (original run)",
+  "comparison": false,
+  "valid": 336,
+  "invalid": 0,
+  "pending": 0,
+  "pc_followed": [
+   48,
+   48
+  ],
+  "tie_n": 96,
+  "tie_chose_distressed": [
+   30,
+   96
+  ],
+  "tie_premium": {
+   "n_scenarios": 24,
+   "mean": -0.1875,
+   "ci_low": -0.2708333333333333,
+   "ci_high": -0.10416666666666667,
+   "p": 0.0011499425028748563
+  },
+  "tie_named_no_statement": [
+   86,
+   96
+  ],
+  "baseline_chose_A": [
+   39,
+   48
+  ],
+  "spite_tie_chose_spiteful": [
+   0,
+   48
+  ],
+  "spite_tie_named_statement": [
+   48,
+   48
+  ],
+  "spite_decisive_followed": [
+   48,
+   48
+  ]
+ },
+ {
+  "model": "GPT-6.1 Terra",
+  "comparison": true,
+  "valid": 336,
+  "invalid": 0,
+  "pending": 0,
+  "pc_followed": [
+   48,
+   48
+  ],
+  "tie_n": 96,
+  "tie_chose_distressed": [
+   43,
+   96
+  ],
+  "tie_premium": {
+   "n_scenarios": 24,
+   "mean": -0.052083333333333336,
+   "ci_low": -0.09375,
+   "ci_high": -0.010416666666666666,
+   "p": 0.06039698015099245,
+   "p_holm": 0.1207939603019849
+  },
+  "tie_named_no_statement": [
+   96,
+   96
+  ],
+  "baseline_chose_A": [
+   48,
+   48
+  ],
+  "spite_tie_chose_spiteful": [
+   5,
+   48
+  ],
+  "spite_tie_named_statement": [
+   0,
+   48
+  ],
+  "spite_decisive_followed": [
+   48,
+   48
+  ],
+  "replicates": false
+ },
+ {
+  "model": "Claude Sonnet 5.5",
+  "comparison": true,
+  "valid": 336,
+  "invalid": 0,
+  "pending": 0,
+  "pc_followed": [
+   48,
+   48
+  ],
+  "tie_n": 96,
+  "tie_chose_distressed": [
+   46,
+   96
+  ],
+  "tie_premium": {
+   "n_scenarios": 24,
+   "mean": -0.020833333333333332,
+   "ci_low": -0.052083333333333336,
+   "ci_high": 0.0,
+   "p": 0.4910254487275636,
+   "p_holm": 0.4910254487275636
+  },
+  "tie_named_no_statement": [
+   96,
+   96
+  ],
+  "baseline_chose_A": [
+   48,
+   48
+  ],
+  "spite_tie_chose_spiteful": [
+   10,
+   48
+  ],
+  "spite_tie_named_statement": [
+   1,
+   48
+  ],
+  "spite_decisive_followed": [
+   48,
+   48
+  ],
+  "replicates": false
+ }
+]

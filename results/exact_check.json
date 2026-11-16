@@ -1,0 +1,26 @@
+{
+  "Gemini 4 Hydrogen": {
+    "valid_trials": 336,
+    "distress_ties": 96,
+    "chose_distressed_side": 30,
+    "decisive_controls_followed_rule": 48,
+    "premium_points": -18.75,
+    "exact_signflip_p": 0.00067138671875
+  },
+  "GPT-6.1 Terra": {
+    "valid_trials": 336,
+    "distress_ties": 96,
+    "chose_distressed_side": 43,
+    "decisive_controls_followed_rule": 48,
+    "premium_points": -5.21,
+    "exact_signflip_p": 0.0625
+  },
+  "Claude Sonnet 5.5": {
+    "valid_trials": 336,
+    "distress_ties": 96,
+    "chose_distressed_side": 46,
+    "decisive_controls_followed_rule": 48,
+    "premium_points": -2.08,
+    "exact_signflip_p": 0.5
+  }
+}
